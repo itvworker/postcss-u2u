@@ -1,12 +1,12 @@
 {
-  "name": "postcss-units",
+  "name": "postcss-u2u",
   "description": "Postcss version of units",
   "version": "1.0.0",
-  "homepage": "https://github.com/itvworker/postcss-units",
+  "homepage": "https://github.com/itvworker/postcss-u2u",
   "author": "langjue <xieke76@qq.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:itvworker/postcss-units.git"
+    "url": "git@github.com:itvworker/postcss-u2u.git"
   },
   "dependencies": {
     "postcss": "^5.0.0"
@@ -20,7 +20,8 @@
   "main": "index.js",
   "keywords": [
     "units",
-    "postcss-units",
+    "rem",
+    "setting",
     "postcss-plugin"
   ],
   "license": "itvworker"
