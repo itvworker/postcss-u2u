@@ -1,15 +1,15 @@
 # postcss-units
 
 This is a [postcss](https://www.npmjs.com/package/postcss) plugin of units tranform
-
-
+### contact
+email: xieke76@qq.com
 
 
 ## Usage
 
 ### Node
 
-```
+```javascript
 var postcss = require('postcss');
 var units= require('postcss-units');
 var originCssText = '...';
@@ -23,10 +23,10 @@ var newCssText = postcss().use(units({remUnit: 64})).process(originCssText).css;
 npm install gulp-postcss
 ```
 
-```
+```javascript
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
-var px2rem = require('postcss-units');
+var units = require('postcss-units');
 
 //参数可以传对像数组，可以传json,即  [object,object] 或 object
 //多个单位要转换传数组，单个传object
@@ -48,7 +48,7 @@ let obj = [
 
 
 gulp.task('default', function() {
-  var processors = [px2rem(obj)];
+  var processors = [units(obj)];
   return gulp.src('./src/*.css')
     .pipe(postcss(processors))
     .pipe(gulp.dest('./dest'));
@@ -61,7 +61,7 @@ gulp.task('default', function() {
 npm install postcss-loader
 ```
 
-```
+```javascript
 var units = require('postcss-units');
 
 let obj = [

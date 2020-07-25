@@ -2,11 +2,11 @@
   "name": "postcss-units",
   "description": "Postcss version of units",
   "version": "1.0.0",
-  "homepage": "https://github.com/songsiqi/px2rem-postcss",
-  "author": "songsiqi <songsiqi2006@126.com>",
+  "homepage": "https://github.com/itvworker/postcss-units",
+  "author": "langjue <xieke76@qq.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:songsiqi/px2rem-postcss.git"
+    "url": "git@github.com:itvworker/postcss-units.git"
   },
   "dependencies": {
     "postcss": "^5.0.0"
@@ -19,8 +19,9 @@
   },
   "main": "index.js",
   "keywords": [
-    "px2rem",
+    "units",
+    "postcss-units",
     "postcss-plugin"
   ],
-  "license": "MIT"
+  "license": "itvworker"
 }
